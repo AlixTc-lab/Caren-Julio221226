@@ -373,16 +373,14 @@ const secondsElement =
     La hora se interpreta en la zona horaria
     del dispositivo donde se abre la invitación.
 */
-
-const weddingDate =
-    new Date(
-        2026,
-        10,
-        21,
-        0,
-        0,
-        0
-    );
+const weddingDate = new Date(
+    2026,
+    11, // diciembre
+    21,
+    0,
+    0,
+    0
+);
 
 
 /* =========================================================
