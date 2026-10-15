@@ -871,7 +871,6 @@ if (itineraryItems.length > 0) {
 
 }
 
-
 /* =========================================================
    URL DE GOOGLE APPS SCRIPT
 ========================================================= */
@@ -892,9 +891,6 @@ const guestId = params.get("id");
 
 const guestNameElement =
     document.getElementById("guestName");
-
-const guestTicketsElement =
-    document.getElementById("guestTickets");
 
 
 /* =========================================================
@@ -927,14 +923,6 @@ async function loadGuestData() {
             guestNameElement.textContent =
                 guest.name;
 
-            guestTicketsElement.textContent =
-                guest.tickets +
-                (
-                    guest.tickets === 1
-                        ? " pase"
-                        : " pases"
-                );
-
         }
 
 
@@ -946,9 +934,6 @@ async function loadGuestData() {
 
             guestNameElement.textContent =
                 "Invitado";
-
-            guestTicketsElement.textContent =
-                "";
 
         }
 
@@ -1181,7 +1166,6 @@ confirmAttendance.addEventListener(
 
     }
 );
-
 /* =========================================================
    BRILLOS ELEGANTES
 ========================================================= */
