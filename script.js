@@ -877,7 +877,7 @@ if (itineraryItems.length > 0) {
 ========================================================= */
 
 const URL_SCRIPT =
-    "https://script.google.com/macros/s/AKfycbxo_N47_9kCwh7N4nmu994cz4KKnYkPQijrMPY9S0qP25I2zEcME-Ju7TxozZT7wNRH/exec";
+    "https://script.google.com/macros/s/AKfycbwPBKQw_UgiSfHiNnpLHQxuSYYhhDPY1_8at74zQYoZyCY1azSRHQ5nmZAT3z6KmwxZJw/exec";
 
 
 /* =========================================================
