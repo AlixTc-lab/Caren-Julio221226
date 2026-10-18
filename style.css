@@ -40,23 +40,29 @@ html {
 
 
 body {
-
     min-height: 100%;
     color: var(--texto);
-    font-family:
-        Georgia,
-        "Times New Roman",
-        serif;
+    font-family: Georgia, "Times New Roman", serif;
     overflow-x: hidden;
+    background-color: var(--crema-almendra);
+    /* Quitamos el background-image de aquí para controlarlo mejor */
+}
 
+/* =========================================================
+   FONDO FIJO UNIVERSAL (Funciona perfecto en iPhone, Android y PC)
+========================================================= */
+.bg-fixed-cover {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100dvh;
+    z-index: -1; /* Lo manda detrás de todo el contenido */
     background-image: url("fondo2.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-
+    pointer-events: none;
 }
-
 
 /* =========================================================
    INVITACIÓN
